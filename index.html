@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroDrone | The Future of Flight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="model-loading" id="modelLoading">Loading 3D Models...</div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <canvas id="bg"></canvas>
+    <div class="particles" id="particles"></div>
+
+    <main class="content">
+        <header id="mainHeader">
+            <a href="#" class="logo">AeroDrone</a>
+            <nav>
+                <a href="#">Features</a>
+                <a href="#">Tech Specs</a>
+                <a href="#">Gallery</a>
+                <a href="#" class="cta-button">Pre-Order Now</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Elevate Your Perspective</h1>
+            <p>Introducing the AeroDrone X7 - Professional aerial cinematography reimagined with cutting-edge technology</p>
+            <a href="#" class="cta-button">Explore Features</a>
+        </section>
+
+        <section>
+            <div class="feature">
+                <div class="feature-icon">🚁</div>
+                <h2>Advanced Flight Performance</h2>
+                <p>Experience unmatched aerial capabilities with our revolutionary propulsion system. Featuring ultra-quiet motors and advanced stabilization technology for the smoothest flight experience.</p>
+                <div class="tech-specs">
+                    <div class="spec-card">
+                        <div class="spec-value">68</div>
+                        <div class="spec-label">MPH Max Speed</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">45</div>
+                        <div class="spec-label">Minutes Flight Time</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">7.5</div>
+                        <div class="spec-label">Miles Range</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="feature">
+                <div class="feature-icon">📸</div>
+                <h2>8K Cinema Camera</h2>
+                <p>Capture breathtaking footage with our professional-grade Hasselblad camera system. Featuring a large 1-inch CMOS sensor, variable aperture, and advanced image processing for Hollywood-quality results.</p>
+                <div class="tech-specs">
+                    <div class="spec-card">
+                        <div class="spec-value">8K</div>
+                        <div class="spec-label">Video Resolution</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">120</div>
+                        <div class="spec-label">FPS Slow Motion</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">1"</div>
+                        <div class="spec-label">CMOS Sensor</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h2>AI-Powered Intelligence</h2>
+                <p>Revolutionary artificial intelligence system with advanced subject recognition, predictive tracking, and autonomous obstacle avoidance. Your creative vision, perfectly executed.</p>
+                <div class="tech-specs">
+                    <div class="spec-card">
+                        <div class="spec-value">360°</div>
+                        <div class="spec-label">Obstacle Detection</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">15+</div>
+                        <div class="spec-label">Smart Modes</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">0.1s</div>
+                        <div class="spec-label">Response Time</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="feature">
+                <div class="feature-icon">🌐</div>
+                <h2>Global Connectivity</h2>
+                <p>Stay connected anywhere in the world with our advanced communication system. Real-time HD video transmission and global flight coordination for professional operations.</p>
+                <div class="tech-specs">
+                    <div class="spec-card">
+                        <div class="spec-value">4G/5G</div>
+                        <div class="spec-label">Cellular Support</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">1080p</div>
+                        <div class="spec-label">Live Stream</div>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-value">Global</div>
+                        <div class="spec-label">Coverage</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="cta-final">
+                <h2>Take Flight Today</h2>
+                <p style="font-size: 1.3rem; margin-bottom: 2rem; color: var(--secondary-color);">Join thousands of professionals who trust AeroDrone for their most important projects</p>
+                <a href="#" class="cta-button">Reserve Your AeroDrone X7</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Third-party libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
