@@ -198,10 +198,6 @@ Potential improvements for future versions:
 - [ ] Multi-language support
 - [ ] Advanced lighting scenarios (day/night toggle)
 
-## License
-
-This project is open source and available under the MIT License.
-
 ## Support
 
 For technical issues:
